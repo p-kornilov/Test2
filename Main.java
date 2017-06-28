@@ -54,9 +54,7 @@ class Stack<E> {
     }
 
     boolean isEmpty() {
-        if (next_pos==0)
-            return true;
-        else return false;
+        return next_pos == 0;
     }
 }
 
@@ -116,4 +114,10 @@ class Table<K,V> {
             this.value = value;
         }
     }
+
+    class TestClass {
+        int i;
+        String S;
+    }
+
 }
